@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/90efb0f972.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- 
+        1.git init - tworzy puste repo - to robimy raz, hcyba ze usniemy pliki, to trzeba powtrozyc
+        -- teraz trzeba dodac pliki do tego repo, zeby one na tym masterzy byly! czyli to co mamy w projektcie
+        
+        2.Trzeba dodać plik, aby był zapisany jako jakas wersja oraz zmiany, musimy je dodać ayb je wprowadzić
+        git add [nazwa pliku] - dodaje konkretny plik, 
+        git add index.html
+        git add . - dodaje wszystkiep pliki
+
+        3.I trzeba po dodaniu pliku weslac opis do repo, bo nie zadziala checkout.
+        git commit -m "krotki opis zmian ktore zrobilismy" opis tego co wysylamy do repo
+
+        git status - sprawdzam status plikow w repo
+
+        git log - wywoluje panel kot co zrobil i kiedy, oraz dana wersje ten dlugi numer commit
+
+        git checkout - wyklejamy ten dlugi ciag znakow z git log przy commit, aby przywroic daną wersję,
+        * czasami na koncu dodaje 1~, i trzea to usunąć z tego kodu przed wusłaniem
+
+        main / master oznacza ze jestesmy na glownej timeline,
+
+        MASTER I BRANCH
+        git branch - sprawdza na jakim branchu jestemsy
+
+        git checkout -b 'branchname'
+
+        ..............
+
+        tworzenie branchy
+        git checkout nazwabrancha - przelacza nas po istneijacych brancheach, podajemy tylko nazwi i juz
+
+        git branch nazwabrancha - tu odrazu tworzy i od razu nas rpzenosi na nowy branch, i to jest jedyna rozniaca do tego wyzej, funkcjonuja tak samo, poprstu krstyszy zapis
+
+        git branch -d nazwabrancha - usuwana danego brancha, ale musimyy njapierw z niego wyjsc
+
+        ........................
+        
+        git merge nazwabranch - bedąc na main wpisujemy nazwa branches ktory chcemy polaczyc z mianem. czyli puszujemy na mastera, laczymy z masterem
+
+
+        * zmiany na branchesh nie wplywja na main, dopoki nie wypuszyujemy go do main, mozemy robic setki zmian, a main bedzie nienaruszony
+
+        GITHUB
+        git remote add origin https://github.com/ArchPanse/nazwarepo.git  -  wysyła do git huba pliki,  https, jest dla kazdego konta inny.
+        - origin to pierwsza domyslna nazwa repo dla githuba
+        - jak chccemy pracowac z kilkoma repo to zamast origin musimy dac inna nazwa, nazwy jak id nie moga sie powtarzac
+        - i w komenadsh zmieniamy ją w git remate oraz w git push
+
+        git push -u origin main - push na master/main wypucha update na mastera, - wysyla wprawodzone zmiany na git huba
+
+        git remote -v - mozemy sprawdzic od jakich repo jestesmy podlaczeni
+
+        git clone https://github.com/ArchPanse/ProjectA.git (adres danego repo)  - poberania repo z githuba
+
+        lista podstowowych komend pojawia się przy tworzneiu nowego repo, więc tam wszystko jest wyjasnione
+     -->
+    <h1>Hi</h1>
+
+</body>
+
+</html>
